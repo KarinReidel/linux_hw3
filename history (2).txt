@@ -1,0 +1,7 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 >> /tmp/file.txt
+   2 export NAME=karina MYVAR=hello
+   3 echo $NAME $MYVAR >> /tmp/file.txt
+   4 nano /tmp/file.txt
+   5 unset NAME MYVAR
+   6 history >> history.txt
